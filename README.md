@@ -33,6 +33,40 @@ const u = random()
 
 if(u === 0) {
   console.log('u is 0')
+  
+  ### #화살표 함수 : 함수 최소화
+```js
+const double = function (x) {
+  return x * 2
+}
+console.log('double:', double(7))
+
+const doubleArrow = (x) => {
+  return x * 2
+}
+console.log('doubleArrow', doubleArrow(7))
+```
+
+### #호이스팅 : 함수 선언부가 유효범위 최상단으로 끌어올려지는 현상
+```js
+const q = 7
+
+double()
+
+function double() {
+  console.log(q * 2)
+}
+```
+
+### #타이머 함수
+- setTimeout(함수, 시간) : 일정 시간 후 함수 실행
+- setInterval(함수, 시간) : 시간 간격마다 함수 실행
+- clearTimeout() : 설정된 Timeout 함수를 종료
+- clearInterval() : 설정된 Interval 함수를 종료
+
+### #this
+- 일반함수는 호출 위치에서 따라 this 정의
+- 화살표함수는 자신이 선언된 함수 범위에서this 정의
 } else if (u === 2) {
   console.log('u is 2')
 } else if (u === 4) {
