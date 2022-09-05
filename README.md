@@ -111,3 +111,28 @@ function double() {
   console.log('rest...')
 }
 
+### #String mdn
+✏️ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String
+
+### #Math mdn
+✏️ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math
+
+### #Array mdn
+✏️ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+### #Object mdn
+✏️ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+### #Lodash
+✏️ https://lodash.com/
+
+### #localStorage
+✏️ https://developer.mozilla.org/ko/docs/Web/API/Window/localStorage
+
+### #데이터 불변성
+- 원시데이터 : String, Number, Boolean, undefined, null...
+- 참조형 데이터 : Object, Array, Fuction
+
+### #OMDB API
+Query String
+주소?속성=값&속성=값&속성=값
