@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index3.html",
-    "build": "parcel build index3.html"
+    "dev": "parcel main5.html",
+    "build": "parcel build main5.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }
